@@ -13,10 +13,15 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 
-export default function Home() {
-  const [nav, setNav] = useState(false);
-  const openNav = () => setNav(true);
-  const closeNav = () => setNav(false);
+
+
+function page() {
+ 
+const [nav, setNav] = useState(false);
+const openNav = () => setNav(true);
+const closeNav = () => setNav(false);
+
+
 
   useEffect(()=>{
     
@@ -51,19 +56,20 @@ export default function Home() {
     <>
       <section className="overflow-x-hidden ">
         <div>
-          <MobileNav nav = {nav} closeNav={closeNav} />
+          <MobileNav nav={nav} closeNav={closeNav} />
           <Nav openNav={openNav} />
-          <Hero/>
-          <div className='relative z-'>
-            <About/>
-            <Services/>
-            <Skills/>
-            <Projects/>
-            <Testimonial/>
-            <Footer/>
+          <Hero />
+          <div className="relative z-">
+            <About />
+            <Services />
+            <Skills />
+            <Projects />
+            <Testimonial />
+            <Footer />
           </div>
         </div>
       </section>
     </>
   );
-}
+  }
+export default page;
