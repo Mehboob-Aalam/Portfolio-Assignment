@@ -11,7 +11,7 @@ function Hero() {
       <div className="w-4/5 grid-cols-1 mx-auto grid lg:grid-cols-2 gap-9 h-full items-center">
         <div className="mt-32">
           <h1 className="text-4xl md:text-[40px] text-white font-bold">
-            HI, I'M <span className="text-yellow-400">MEHBOOB!</span>
+            HI, I am <span className="text-yellow-400">MEHBOOB!</span>
           </h1>
 
           <TextEffect />
@@ -33,7 +33,7 @@ function Hero() {
                 LinkedIn
                 <Image
                   src={linkedIn}
-                  alt=""
+                  alt="linkedin"
                   className="w-[2.5rem] h-[2rem]"
                 />
               </Link>
@@ -50,7 +50,7 @@ function Hero() {
           <Image
             className="object-cover rounded-full"
             src={mainImage}
-            alt=""
+            alt="mainimage"
             layout="fill"
           />
         </div>
