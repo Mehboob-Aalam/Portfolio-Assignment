@@ -23,16 +23,19 @@ function Hero() {
             requirements thoroughly, and build the software required by the
             client in a timely fashion.
           </p>
-          <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6 ">
-            <button className="xl:px-8 px-8 hover:bg-yellow-400 transition-all duration-500 xl:py-4 lg:py-2 py-4 lg:text-2xl md:text-2xl text-xl font-bold uppercase bg-[#55e6a5] text-blue-700 flex items-center xl:space-x-2">
-              <Link className='flex justify-center items-center'
+          <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
+            <button className="xl:px-8 px-8 hover:bg-yellow-400 transition-all mx-auto md:mx-0 rounded-lg duration-500 xl:py-4 lg:py-2 py-4 lg:text-xl xl:text-2xl md:text-2xl text-xl font-bold uppercase bg-[#55e6a5] text-blue-700 flex items-center xl:space-x-2">
+              <Link
+                className="flex justify-center items-center"
                 target="_blank"
-                href={
-                  "https://www.linkedin.com/"
-                }
+                href={"https://www.linkedin.com/"}
               >
-                Linked In
-                <Image src={linkedIn} alt="" className="w-[2.5rem] h-[2rem]" />
+                LinkedIn
+                <Image
+                  src={linkedIn}
+                  alt=""
+                  className="w-[2.5rem] h-[2rem]"
+                />
               </Link>
             </button>
             <button className=" flex items-center space-x-2">

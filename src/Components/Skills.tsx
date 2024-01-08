@@ -9,7 +9,7 @@ function Skills() {
         education & <span className="text-yellow-400">skill</span>
       </h1>
       <div className="md:w-4/5 w-4/5 mx-auto pt-16 grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center justify-center">
-        <div>
+        <div className="">
           <SkillsItem title="React Developer" year="2014 - 2018" />
           <SkillsItem title="Next Js Developer" year="2016 - 2020" />
           <SkillsLanguage
@@ -21,7 +21,7 @@ function Skills() {
             level3="w-[78%]"
           />
         </div>
-        <div>
+        <div className="">
           <SkillsItem title="Node Js Developer" year="2018 - 2021" />
           <SkillsItem title="MERN Developer" year="2021 - 2023" />
           <SkillsLanguage

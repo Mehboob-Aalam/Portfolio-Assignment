@@ -11,15 +11,15 @@ function About() {
     >
       <div className="grid grid-cols-1 md:grid-cols-2 w-4/5 mx-auto gap-[3rem] items-center">
         <div className="flex-1">
-          <h1 className="text-xl font-bold uppercase text-[#55e6a5] mb:[1rem]">
+          <h1 className="text-xl font-bold uppercase text-center md:text-left text-[#55e6a5] mb:[1rem]">
             About me
           </h1>
-          <h2 className="text-[25px] md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white">
+          <h2 className="text-[25px] md:text-[35px] text-center md:text-left lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white">
             Transforming <span className="text-yellow-400">Visions</span>
           </h2>
-          <div className="mb-[3rem] flex items-center md:space-x-10">
-            <span className="w-[20%] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
-            <p className="text-[19px] text-slate-300 w-4/5 ">
+          <div className="mb-[3rem] flex items-center lg:space-x-10">
+            <span className="w-[20%] hidden lg:block h-[5px] bg-slate-400 rounded-sm"></span>
+            <p className="text-[19px] mx-auto md:mx-0 text-slate-300 w-4/5 ">
               I am a full-stack web developer with a vast array of knowledge in
               many different front-end and back-end languages, responsive
               frameworks, databases, and best code practices. I bring years of
@@ -28,7 +28,7 @@ function About() {
               client in a timely fashion.
             </p>
           </div>
-          <button className="px-8 hover:bg-yellow-400 transition-all duration-500 py-4 bg-[#55e6a5] flex items-center space-x-2">
+          <button className="px-8 hover:bg-yellow-400 mx-auto lg:mx-auto md:mx-0 rounded-lg transition-all duration-500 py-4 bg-[#55e6a5] flex items-center space-x-2">
             <Link target="_blank" href={"https://www.fiverr.com/"}>
               <Image
                 src={fiverr}

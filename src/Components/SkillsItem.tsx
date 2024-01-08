@@ -5,7 +5,7 @@ interface Props{
 }
 function SkillsItem({title,year}:Props) {
   return (
-    <div className='mb-16 md:mb-32'>
+    <div className='mb-16 md:mb-32 mx-auto'>
         <span className='px-8 text-[#55e6a5] py-[0.9rem] font-bold text-lg border-2 border-[#55e6a5]'>
             {year}
         </span>
