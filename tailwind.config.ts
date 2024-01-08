@@ -8,9 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        primary: ["Poppins"],
-      },
+      // fontFamily: {
+      //   primary: ["Poppins"],
+      // },
       
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
