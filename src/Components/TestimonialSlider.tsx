@@ -1,0 +1,71 @@
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import ClientReview from "@/Components/ClientReview";
+import c1 from "@/assets/c1.jpg";
+
+import Image from "next/image";
+
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+};
+function TestimonialSlider() {
+  return (
+    <Carousel
+      additionalTransfrom={0}
+      arrows={true}
+      autoPlay={true}
+      autoPlaySpeed={2000}
+      centerMode={false}
+      infinite
+      responsive={responsive}
+      itemClass="item"
+    >
+      <ClientReview
+        name={"Sajal Talukder"}
+        role={"Web Developer"}
+        image="/c1.jpg"
+      />
+      <ClientReview
+        name={"Rakibul Anas"}
+        role={"MERN Stack Developer"}
+        image="/c2.jpg"
+      />
+      <ClientReview
+        name={"James"}
+        role={"React Js Developer"}
+        image="/c3.jpg"
+      />
+      <ClientReview
+        name={"Tomy"}
+        role={"Next Js Developer"}
+        image="/c4.webp"
+      />
+      <ClientReview
+        name={"Talukder"}
+        role={"HR IT Department"}
+        image="/c5.jpg"
+      />
+      <ClientReview
+        name={"Ans"}
+        role={"Frontend Developer"}
+        image="/c6.jpg"
+      />
+    </Carousel>
+  );
+}
+
+export default TestimonialSlider;
