@@ -13,7 +13,7 @@ function Services() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-4/5 mx-auto items-center gap-[3rem] mt-[4rem] text-white">
-        <div data-aos="fade-right">
+        <div data-aos="">
           <div className="bg-red-700 hover:scale-110 rounded-xl transform transition-all duration-500 hover:-rotate-6 uppercase font-semibold text-center p-[2rem]">
             <CodeBracketSquareIcon className="w-24 h-24 mx-auto text-[#d3fae8]" />
             <h1 className="text-xl md:text-3xl mt-[1.5rem] mb-[1.5rem]">
@@ -43,7 +43,7 @@ function Services() {
             </p>
           </div>
         </div>
-        <div data-aos="fade-left" data-aos-delay="500">
+        <div data-aos="" data-aos-delay="500">
           <div className="bg-blue-700 hover:scale-110 rounded-xl transform transition-all duration-500 hover:rotate-6 uppercase font-semibold text-center p-[2rem]">
             <CommandLineIcon className="w-24 h-24 mx-auto text-[#d3fae8]" />
             <h1 className="text-xl md:text-3xl mt-[1.5rem] mb-[1.5rem]">
