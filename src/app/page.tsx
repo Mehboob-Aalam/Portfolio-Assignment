@@ -15,7 +15,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 
 
-function Page() {
+export default function Usepage() {
  
 const [nav, setNav] = useState(false);
 const openNav = () => setNav(true);
@@ -72,4 +72,4 @@ const closeNav = () => setNav(false);
     </>
   );
   }
-export default Page;
+
